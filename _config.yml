@@ -1,31 +1,23 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
-
 # Theme Settings
 #
-# Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+remote_theme             : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Dora Linda Kocsis"
-title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+title_separator          : "|"
+name                     : "Dora Linda Kocsis"
+description              : "A site to showcase recent projects."
+url                      : "https://kdlinda.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "kdlinda/kdlinda.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+logo                     : # "/assets/images/bio_photo.png"
+masthead_title           : " " 
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -83,7 +75,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : kd_linda_
 facebook:
   username               :
   app_id                 :
@@ -108,13 +100,13 @@ analytics:
 author:
   name             : "Dora Linda Kocsis"
   avatar           : "/assets/images/bio_photo.jpg"
-  bio              : "Recent graduate of the MSc in Data Science at ESSEC Business School and CentraleSupélec, Paris."
-  location         : "Frankfurt, Germany"
-  email            : "kocsis.doralinda@gmail.com"
+  bio              : "Recent graduate of the MSc in Data Science at ESSEC Business School and CentraleSupÃ©lec, Paris."
+  location         : #"Frankfurt, Germany"
+  email            : #"kocsis.doralinda@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:kocsis.doralinda@gmail.com
+      # url: mailto:kocsis.doralinda@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -285,11 +277,11 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: pages
     values:
       layout: single
       author_profile: true
       read_time: true
       comments: # true
-      share: true
+      share: #true
       related: true
