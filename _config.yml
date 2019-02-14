@@ -11,7 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -108,13 +108,13 @@ analytics:
 author:
   name             : "Dora Linda Kocsis"
   avatar           : "/assets/images/bio_photo.jpg"
-  bio              : "Recent graduate of the MSc in Data Science at ESSEC Business School and CentraleSupélec, Paris."
-  location         : "Frankfurt, Germany"
-  email            : "kocsis.doralinda@gmail.com"
+  bio              : "Recent graduate of the MSc in Data Science at ESSEC Business School and CentraleSupÃ©lec, Paris."
+  location         : #"Frankfurt, Germany"
+  email            : #"kocsis.doralinda@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:kocsis.doralinda@gmail.com
+      # url: mailto:kocsis.doralinda@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
