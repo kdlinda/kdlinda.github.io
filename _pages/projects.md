@@ -1,12 +1,9 @@
 ---
-defaults:
-- scope:
-    path:""
-    type: pages
-  values:
-    layout: single
-    author_profile: true
+layout: pages
+title: "Projects"
+tags: [projects, network analysis]
 ---
+
 
 ## Network Analysis in Macroeconomic Models
 
