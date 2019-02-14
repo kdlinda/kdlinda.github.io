@@ -1,6 +1,5 @@
 ---
 layout: single
-permalink: /projects/
 ---
 
 
