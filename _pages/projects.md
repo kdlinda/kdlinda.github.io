@@ -2,6 +2,7 @@
 layout: pages
 title: "Projects"
 tags: [projects, network analysis]
+permalink: /projects/
 ---
 
 
