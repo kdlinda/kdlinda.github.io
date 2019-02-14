@@ -1,8 +1,8 @@
 ---
 defaults:
-  # _pages
+  _pages
   - scope:
-      path: "/projects/"
+      path: ""
       type: pages
     values:
       layout: single
