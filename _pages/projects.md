@@ -2,7 +2,7 @@
 layout: page
 title: "Projects"
 tags: [projects, network analysis]
-
+---
 
 ## Network Analysis in Macroeconomic Models
 
