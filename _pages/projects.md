@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: pages
 title: "Projects"
+permalink: /projects/
 tags: [projects, network analysis]
 ---
 
