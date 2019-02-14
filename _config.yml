@@ -1,13 +1,5 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
-
 # Theme Settings
 #
-# Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
@@ -24,8 +16,8 @@ url                      : "https://kdlinda.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "kdlinda/kdlinda.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/bio_photo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "kdlinda's website" # overrides the website title displayed in the masthead, use " " for no title
+logo                     : # "/assets/images/bio_photo.png"
+masthead_title           : " " 
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
