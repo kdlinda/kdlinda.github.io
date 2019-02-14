@@ -1,13 +1,8 @@
 ---
-layout: pages
-permalink: /projects/
-title: "Projects"
-tags: [projects, network analysis]
-
 defaults:
   # _pages
   - scope:
-      path: ""
+      path: "/pages/"
       type: pages
     values:
       layout: single
