@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Projects
-modified: 2019-02-14
+title: "Projects"
 tags: [projects, network analysis]
 
 
